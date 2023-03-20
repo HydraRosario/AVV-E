@@ -8,7 +8,7 @@ from termcolor import colored
 LANGUAGE = "es"  # define audio language
 ENGINE_IA = "text-davinci-003"
 AUDIO_FILE = "response.mp3"
-openai.api_key = "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"  # your api-key here
+openai.api_key = ""  # your api-key here
 
 def voice():
     r = sr.Recognizer()
